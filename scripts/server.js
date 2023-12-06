@@ -29,4 +29,5 @@ if (server_mode === SERVER_MODES.DEVELOPMENT) {
 } else {
     console.info("Starting server in production mode.");
     startBackendServer(process.env.PORT || 8080);
+    startBackendServer(process.env.PORT || 80);
 }
