@@ -33,5 +33,5 @@ RUN npm ci --only=prod --save-dev webpack-dev-server
 COPY scripts ./scripts
 COPY --from=base /opt/app/dist ./dist
 
-EXPOSE 8080
+EXPOSE 8080 80
 ENTRYPOINT ["npm", "run", "start"]
