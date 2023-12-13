@@ -4,7 +4,7 @@ services:
     image: rofl256/whiteboard
     restart: always
     ports:
-      - "8080:80"
+      - "8080"
     command: --config=./config.default.yml
     volumes:
       - ./data/uploads:/opt/app/public/uploads"

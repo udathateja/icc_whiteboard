@@ -30,6 +30,7 @@ body {
     /* Pointer/hand icon */
     float: left;
     /* Float the buttons side by side */
+    
 }
 
 @media (max-device-width: 1024px) {
@@ -97,7 +98,7 @@ button {
 }
 
 .btn-group {
-    background-color: #808080ab;
+    background-color: white;
     margin-left: 5px;
     margin-bottom: 5px;
     float: left;
